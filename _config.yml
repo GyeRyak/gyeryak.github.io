@@ -1,9 +1,9 @@
 # Site settings
 name: 계략
 email: gyeryak77@gmail.com
-author: Freud Kang
-url: http://www.hifreud.com
-resume_site: http://www.hifreud.com/Resume.io/
+author: 계략
+url: https://gyeryak.github.io
+resume_site: https://gyeryak.github.io/
 github: https://github.com/gyeryak/
 baseurl: ""
 description: 잡다한 정보들
