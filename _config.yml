@@ -12,8 +12,8 @@ motto: 모두에게 도움이 되도록
 banner: 배우고 생각하지 않으면 아니 되고, 생각하지 않고 배우면 위험하다.
 
 #permalink: /:categories/:year/:month/:day/:title/
-permalink: /:year/:month/:day/:title/
-paginate: 10
+permalink: /:categories/:title/
+paginate: 20
 
 exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
 
@@ -22,5 +22,4 @@ github_username: gyeryak
 # Build settings
 markdown: kramdown
 
-baidu_analysis: 94be4b0f9fc5d94cc0d0415ea6761ae9
 
