@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gyeryak's Tools</title>
+    
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-SY55JKX477"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-SY55JKX477');
+    </script>
+    
+    <!-- SEO 메타 태그 -->
+    <meta name="description" content="Gyeryak의 계산기 유틸리티와 다양한 도구들을 제공하는 웹사이트">
+    <meta name="keywords" content="계산기, 유틸리티, 도구, gyeryak">
+    <meta name="author" content="gyeryak">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph 메타 태그 (소셜 미디어 공유용) -->
+    <meta property="og:title" content="Gyeryak's Tools">
+    <meta property="og:description" content="Gyeryak의 계산기 유틸리티와 다양한 도구들을 제공하는 웹사이트">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://gyeryak.github.io">
+    <meta property="og:site_name" content="Gyeryak's Tools">
+    
+    <!-- Twitter Card 메타 태그 -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Gyeryak's Tools">
+    <meta name="twitter:description" content="Gyeryak의 계산기 유틸리티와 다양한 도구들을 제공하는 웹사이트">
+    
+    <!-- 검색 엔진 소유권 확인을 위한 메타 태그 (필요시 추가) -->
+    <!-- <meta name="google-site-verification" content="여기에_구글_인증코드_입력"> -->
+    <meta name="naver-site-verification" content="7e52bc9a97ca805488ceefa7ca4c24b8a2df1a05" />
+    
+    <!-- 파비콘 -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://gyeryak.github.io">
+    
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .loading-container {
+            text-align: center;
+            color: white;
+        }
+        
+        .spinner {
+            border: 4px solid rgba(255, 255, 255, 0.3);
+            border-radius: 50%;
+            border-top: 4px solid #fff;
+            width: 40px;
+            height: 40px;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 20px;
+        }
+        
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        
+        h1 {
+            margin-bottom: 10px;
+            font-size: 24px;
+        }
+        
+        p {
+            opacity: 0.9;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <div class="loading-container">
+        <div class="spinner"></div>
+        <h1>Gyeryak's Tools</h1>
+        <p>계산기 유틸리티로 이동 중...</p>
+    </div>
+    
+    <script>
+        // 즉시 리다이렉션
+        window.location.replace('/calculator-utility');
+        
+        // 만약 리다이렉션이 실패하면 3초 후 다시 시도
+        setTimeout(function() {
+            if (window.location.pathname === '/' || window.location.pathname === '/index.html') {
+                window.location.href = '/calculator-utility';
+            }
+        }, 3000);
+    </script>
+</body>
+</html>
